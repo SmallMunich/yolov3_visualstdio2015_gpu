@@ -19,6 +19,8 @@ My Computer about the version of CUDA CUDNN OpenCV:
 
     CUDA8.0 + CUDNN6.5 + OpenCV3.3.1
     
+Because Windows system is different from time function of Linux system, there may be timing error in engineering. I didn't seriously modify the timing function part, I'm sorry. 
+
 The gpu version is faster and enjoy it.
 
 My blog link : https://blog.csdn.net/small_munich/article/details/79721466
