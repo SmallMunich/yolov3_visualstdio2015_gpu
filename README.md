@@ -3,6 +3,8 @@ The run-time system: Windows10 + x64 + Visual_Studio2015
 
 First You need to download the yolov3 weights : https://pjreddie.com/darknet/yolo/
 
+when you download the yolov3 weights, you copy it to the "cfg" folder of the project.
+
 Then you  need other lib or configuration: CUDA 、CUDNN、 OpenCV 
 
 If you have install CUDA、CUDNN and OpenCV:
