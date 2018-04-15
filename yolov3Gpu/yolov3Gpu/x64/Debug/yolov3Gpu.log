@@ -1,0 +1,591 @@
+﻿  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\activation_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\activation_kernels.cu" -clean 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  activation_kernels.cu
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\avgpool_layer_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\avgpool_layer_kernels.cu" -clean 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  avgpool_layer_kernels.cu
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\blas_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\blas_kernels.cu" -clean 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  blas_kernels.cu
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\col2im_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\col2im_kernels.cu" -clean 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  col2im_kernels.cu
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\convolutional_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\convolutional_kernels.cu" -clean 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  convolutional_kernels.cu
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\crop_layer_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\crop_layer_kernels.cu" -clean 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  crop_layer_kernels.cu
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\deconvolutional_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\deconvolutional_kernels.cu" -clean 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  deconvolutional_kernels.cu
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\dropout_layer_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\dropout_layer_kernels.cu" -clean 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  dropout_layer_kernels.cu
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\im2col_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\im2col_kernels.cu" -clean 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  im2col_kernels.cu
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\maxpool_layer_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\maxpool_layer_kernels.cu" -clean 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  maxpool_layer_kernels.cu
+  Compiling CUDA source file src\activation_kernels.cu...
+  Compiling CUDA source file src\avgpool_layer_kernels.cu...
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\activation_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\activation_kernels.cu" 
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\avgpool_layer_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\avgpool_layer_kernels.cu" 
+  Compiling CUDA source file src\blas_kernels.cu...
+  Compiling CUDA source file src\col2im_kernels.cu...
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\blas_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\blas_kernels.cu" 
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\col2im_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\col2im_kernels.cu" 
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/activation_kernels.cu(159): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/activation_kernels.cu(159): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/activation_kernels.cu(160): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/activation_kernels.cu(174): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/activation_kernels.cu(174): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/activation_kernels.cu(175): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/activation_kernels.cu(192): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/activation_kernels.cu(192): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/activation_kernels.cu(193): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/activation_kernels.cu(198): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/activation_kernels.cu(198): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/activation_kernels.cu(199): error : identifier "check_error" is undefined
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  activation_kernels.cu
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 8.0.targets(689,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\activation_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\activation_kernels.cu"”已退出，返回代码为 2。
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Compiling CUDA source file src\convolutional_kernels.cu...
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/avgpool_layer_kernels.cu(50): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/avgpool_layer_kernels.cu(50): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/avgpool_layer_kernels.cu(50): error : class "network" has no member "input_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/avgpool_layer_kernels.cu(50): error : class "layer" has no member "output_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/avgpool_layer_kernels.cu(51): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/avgpool_layer_kernels.cu(58): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/avgpool_layer_kernels.cu(58): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/avgpool_layer_kernels.cu(58): error : class "network" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/avgpool_layer_kernels.cu(58): error : class "layer" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/avgpool_layer_kernels.cu(59): error : identifier "check_error" is undefined
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  avgpool_layer_kernels.cu
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 8.0.targets(689,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\avgpool_layer_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\avgpool_layer_kernels.cu"”已退出，返回代码为 2。
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\convolutional_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\convolutional_kernels.cu" 
+  Compiling CUDA source file src\crop_layer_kernels.cu...
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(23): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(27): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(32): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(52): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(53): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(73): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(73): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(74): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/col2im_kernels.cu(52): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(92): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(113): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(113): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(115): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(117): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(176): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(176): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(177): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(182): error : identifier "scal_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(184): error : identifier "axpy_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(187): error : identifier "mul_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(191): error : identifier "fill_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(215): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(215): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(216): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(247): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(276): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(322): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(322): error : identifier "BLOCK" is undefined
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(323): error : identifier "check_error" is undefined
+  col2im_kernels.cu
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(328): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(329): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(334): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(335): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(468): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(468): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(469): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(497): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(497): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(498): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(503): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(532): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(562): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(563): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(568): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(569): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(575): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(575): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(576): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(581): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(581): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(582): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(587): error : identifier "axpy_gpu_offset" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(592): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(592): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(593): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(598): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(598): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(599): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(604): error : identifier "copy_gpu_offset" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(609): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(609): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(610): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(615): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(615): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(616): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(639): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(639): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(640): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(646): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(646): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(647): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(658): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(658): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(659): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(670): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(670): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(671): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(676): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(676): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(677): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(682): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(682): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(683): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(689): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(689): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(690): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(695): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(695): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(696): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(701): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(701): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(702): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(707): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(707): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(708): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(743): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(743): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(744): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(766): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(766): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/blas_kernels.cu(767): error : identifier "check_error" is undefined
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  blas_kernels.cu
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 8.0.targets(689,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\blas_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\blas_kernels.cu"”已退出，返回代码为 4。
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 8.0.targets(689,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\col2im_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\col2im_kernels.cu"”已退出，返回代码为 2。
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\crop_layer_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\crop_layer_kernels.cu" 
+  Compiling CUDA source file src\dropout_layer_kernels.cu...
+  Compiling CUDA source file src\deconvolutional_kernels.cu...
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\deconvolutional_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\deconvolutional_kernels.cu" 
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\dropout_layer_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\dropout_layer_kernels.cu" 
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(25): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(25): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(26): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(46): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(46): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(47): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(69): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(69): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(70): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(75): error : class "layer" has no member "output_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(75): error : identifier "fill_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(77): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(77): error : class "layer" has no member "binary_weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(82): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(82): error : class "layer" has no member "binary_weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(84): error : class "network" has no member "input_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(84): error : class "layer" has no member "binary_input_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(85): error : class "network" has no member "input_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(85): error : class "layer" has no member "binary_input_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(111): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(113): error : class "layer" has no member "output_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(115): error : class "network" has no member "input_gpu"
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(115): error : identifier "im2col_gpu" is undefined
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(117): error : identifier "gemm_gpu" is undefined
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(123): error : identifier "forward_batchnorm_layer_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(125): error : class "layer" has no member "output_gpu"
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(125): error : class "layer" has no member "biases_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(125): error : identifier "add_bias_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(128): error : class "layer" has no member "output_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(128): error : identifier "activate_array_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(171): error : identifier "cuda_gridsize" is undefined
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(171): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(171): error : class "layer" has no member "output_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(171): error : class "layer" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(172): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(181): error : class "layer" has no member "output_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(181): error : class "layer" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(181): error : identifier "gradient_array_gpu" is undefined
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(185): error : identifier "backward_batchnorm_layer_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(187): error : class "layer" has no member "bias_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(187): error : class "layer" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(187): error : identifier "backward_bias_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(189): error : class "network" has no member "input_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(191): error : class "network" has no member "input_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(191): error : class "layer" has no member "binary_input_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(235): error : class "layer" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(237): error : class "layer" has no member "weight_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(239): error : class "network" has no member "input_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(241): error : identifier "im2col_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(243): error : identifier "gemm_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(245): error : class "network" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(247): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(248): error : class "layer" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(254): error : class "network" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(253): error : identifier "col2im_gpu" is undefined
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(259): error : class "network" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(267): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(267): error : identifier "cuda_pull_array" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(268): error : class "layer" has no member "biases_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(269): error : class "layer" has no member "weight_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(270): error : class "layer" has no member "bias_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(272): error : class "layer" has no member "scales_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(273): error : class "layer" has no member "rolling_mean_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(274): error : class "layer" has no member "rolling_variance_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(280): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(280): error : identifier "cuda_push_array" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(281): error : class "layer" has no member "biases_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(282): error : class "layer" has no member "weight_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(283): error : class "layer" has no member "bias_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(285): error : class "layer" has no member "scales_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(286): error : class "layer" has no member "rolling_mean_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(287): error : class "layer" has no member "rolling_variance_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(299): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(299): error : class "layer" has no member "weight_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(299): error : class "layer" has no member "m_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(299): error : class "layer" has no member "v_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(299): error : identifier "adam_update_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(300): error : class "layer" has no member "biases_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(300): error : class "layer" has no member "bias_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(300): error : class "layer" has no member "bias_m_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(300): error : class "layer" has no member "bias_v_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(301): error : class "layer" has no member "scales_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(302): error : class "layer" has no member "scales_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(302): error : class "layer" has no member "scale_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(302): error : class "layer" has no member "scale_m_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(302): error : class "layer" has no member "scale_v_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(305): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(305): error : class "layer" has no member "weight_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(305): error : identifier "axpy_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(306): error : class "layer" has no member "weight_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(306): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(307): error : class "layer" has no member "weight_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(307): error : identifier "scal_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(309): error : class "layer" has no member "bias_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(309): error : class "layer" has no member "biases_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(310): error : class "layer" has no member "bias_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(312): error : class "layer" has no member "scales_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(313): error : class "layer" has no member "scale_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(313): error : class "layer" has no member "scales_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/convolutional_kernels.cu(314): error : class "layer" has no member "scale_updates_gpu"
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  convolutional_kernels.cu
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 8.0.targets(689,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\convolutional_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\convolutional_kernels.cu"”已退出，返回代码为 4。
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Compiling CUDA source file src\im2col_kernels.cu...
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/crop_layer_kernels.cu(185): error : class "layer" has no member "rand_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/crop_layer_kernels.cu(185): error : identifier "cuda_random" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/crop_layer_kernels.cu(198): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/crop_layer_kernels.cu(198): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/crop_layer_kernels.cu(198): error : class "network" has no member "input_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/crop_layer_kernels.cu(198): error : class "layer" has no member "rand_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/crop_layer_kernels.cu(199): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/crop_layer_kernels.cu(203): error : class "network" has no member "input_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/crop_layer_kernels.cu(203): error : class "layer" has no member "rand_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/crop_layer_kernels.cu(203): error : class "layer" has no member "output_gpu"
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  crop_layer_kernels.cu
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 8.0.targets(689,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\crop_layer_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\crop_layer_kernels.cu"”已退出，返回代码为 2。
+  Compiling CUDA source file src\maxpool_layer_kernels.cu...
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\im2col_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\im2col_kernels.cu" 
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(25): error : class "layer" has no member "output_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(25): error : identifier "fill_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/dropout_layer_kernels.cu(21): error : class "layer" has no member "rand_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(28): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/dropout_layer_kernels.cu(21): error : identifier "cuda_random" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(29): error : class "network" has no member "input_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/dropout_layer_kernels.cu(30): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(32): error : identifier "gemm_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/dropout_layer_kernels.cu(30): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(34): error : class "layer" has no member "output_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(34): error : identifier "col2im_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/dropout_layer_kernels.cu(30): error : class "network" has no member "input_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/dropout_layer_kernels.cu(30): error : class "layer" has no member "rand_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(37): error : identifier "forward_batchnorm_layer_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/dropout_layer_kernels.cu(31): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(39): error : class "layer" has no member "output_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/dropout_layer_kernels.cu(36): error : class "network" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(39): error : class "layer" has no member "biases_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/dropout_layer_kernels.cu(39): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(39): error : identifier "add_bias_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/dropout_layer_kernels.cu(39): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(41): error : class "layer" has no member "output_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/dropout_layer_kernels.cu(39): error : class "network" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(41): error : identifier "activate_array_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/dropout_layer_kernels.cu(39): error : class "layer" has no member "rand_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(49): error : class "layer" has no member "output_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/dropout_layer_kernels.cu(40): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(49): error : class "layer" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(49): error : identifier "gradient_array_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(52): error : identifier "backward_batchnorm_layer_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(54): error : class "layer" has no member "bias_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(54): error : class "layer" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(54): error : identifier "backward_bias_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(64): error : class "network" has no member "input_gpu"
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  dropout_layer_kernels.cu
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(66): error : class "layer" has no member "weight_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(68): error : class "layer" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(68): error : identifier "im2col_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(70): error : identifier "gemm_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(72): error : class "network" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(77): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(79): error : class "network" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(88): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(88): error : identifier "cuda_pull_array" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(89): error : class "layer" has no member "biases_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(90): error : class "layer" has no member "weight_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(91): error : class "layer" has no member "bias_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(93): error : class "layer" has no member "scales_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(94): error : class "layer" has no member "rolling_mean_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(95): error : class "layer" has no member "rolling_variance_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(101): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(101): error : identifier "cuda_push_array" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(102): error : class "layer" has no member "biases_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(103): error : class "layer" has no member "weight_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(104): error : class "layer" has no member "bias_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(106): error : class "layer" has no member "scales_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(107): error : class "layer" has no member "rolling_mean_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(108): error : class "layer" has no member "rolling_variance_gpu"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 8.0.targets(689,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\dropout_layer_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\dropout_layer_kernels.cu"”已退出，返回代码为 2。
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(120): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(120): error : class "layer" has no member "weight_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(120): error : class "layer" has no member "m_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(120): error : class "layer" has no member "v_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(120): error : identifier "adam_update_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(121): error : class "layer" has no member "biases_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(121): error : class "layer" has no member "bias_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(121): error : class "layer" has no member "bias_m_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(121): error : class "layer" has no member "bias_v_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(122): error : class "layer" has no member "scales_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(123): error : class "layer" has no member "scales_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(123): error : class "layer" has no member "scale_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(123): error : class "layer" has no member "scale_m_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(123): error : class "layer" has no member "scale_v_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(126): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(126): error : class "layer" has no member "weight_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(126): error : identifier "axpy_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(127): error : class "layer" has no member "weight_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(127): error : class "layer" has no member "weights_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(128): error : class "layer" has no member "weight_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(128): error : identifier "scal_gpu" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(130): error : class "layer" has no member "bias_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(130): error : class "layer" has no member "biases_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(131): error : class "layer" has no member "bias_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(133): error : class "layer" has no member "scales_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(134): error : class "layer" has no member "scale_updates_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(134): error : class "layer" has no member "scales_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/deconvolutional_kernels.cu(135): error : class "layer" has no member "scale_updates_gpu"
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  deconvolutional_kernels.cu
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 8.0.targets(689,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\deconvolutional_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\deconvolutional_kernels.cu"”已退出，返回代码为 2。
+  
+  E:\vs_code\yolov3Gpu\yolov3Gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\maxpool_layer_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\maxpool_layer_kernels.cu" 
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v8.0\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/im2col_kernels.cu(56): error : identifier "BLOCK" is undefined
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  im2col_kernels.cu
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 8.0.targets(689,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\im2col_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\im2col_kernels.cu"”已退出，返回代码为 2。
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/maxpool_layer_kernels.cu(95): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/maxpool_layer_kernels.cu(95): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/maxpool_layer_kernels.cu(95): error : class "network" has no member "input_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/maxpool_layer_kernels.cu(95): error : class "layer" has no member "output_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/maxpool_layer_kernels.cu(95): error : class "layer" has no member "indexes_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/maxpool_layer_kernels.cu(96): error : identifier "check_error" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/maxpool_layer_kernels.cu(103): error : identifier "cuda_gridsize" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/maxpool_layer_kernels.cu(103): error : identifier "BLOCK" is undefined
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/maxpool_layer_kernels.cu(103): error : class "layer" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/maxpool_layer_kernels.cu(103): error : class "network" has no member "delta_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/maxpool_layer_kernels.cu(103): error : class "layer" has no member "indexes_gpu"
+E:/vs_code/yolov3Gpu/yolov3Gpu/src/maxpool_layer_kernels.cu(104): error : identifier "check_error" is undefined
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  maxpool_layer_kernels.cu
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 8.0.targets(689,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DHAVE_STRUCT_TIMESPEC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\maxpool_layer_kernels.cu.obj "E:\vs_code\yolov3Gpu\yolov3Gpu\src\maxpool_layer_kernels.cu"”已退出，返回代码为 2。
